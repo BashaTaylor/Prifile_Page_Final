@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dashed fuchsia; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 500px;
+}
+
+nav {
+    min-height: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2em;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+button {
+    color:white;
+    background-color: cadetblue;
+    width: 30mm;
+    height: 10mm;
+}
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.53em;
+    list-style-type: none;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+main {
+    padding: 2em 10em 0em 10em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+#content{
+    flex: 2;
+    min-height: 500px;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+}
+
+#container2 {
+    border-color: lightgray;
+    border-style: solid;
+    position: relative;
+}
+
+.bottom {
+    background-color: rgb(44, 169, 185);
+    width: 100%;
+    min-height: 100px;
+}
+
+.top {
+    background-color: rgb(44, 169, 185);
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 70px;
+}
+
+#content2 {
+    min-height: 500px;
+    margin-top: 2em;
+    border-color: lightgray;
+    border-style: solid;
+    margin-top: 3em;
+}
+
+.connRequest {
+    background-color: black;
+    border:solid 3px  black;
+    color: white;
+    height: 35px;
+    
+}
+
+#two {
+    color: black;
+    font-size: xx-small;
+    border:solid 3px  black; 
+    border-radius: 50%;
+    background-color: lightgray;
+
+}
+
+.yourConn {
+    border: solid 3px ;
+    background-color: black;
+    color: white;
+    border:solid 3px  black;
+    color: white;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.yourConnections {
+    border: solid 3px lightgray;
+}
+#five {
+    color: black;
+    font-size: xx-small;
+    border:solid 3px  black; 
+    border-radius: 50%;background-color: lightgray;
+}
+
+#your{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px lightgray;
+}
+
+#view {
+    border: solid 2px lightgray;
+    height: 35px;
+}
+
+#connection {
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#connection2 {
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#education {
+    border:solid 2px  black; 
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 10px;
+}
+
+#content1 {
+    border: solid 2px lightgray;
+}
+
+.request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px lightgray;
+}
+
+.profilePic {
+    position: absolute;
+    top: 75px;
+    padding-left: 10px;
+}
+
+.profileBox {
+    padding-left: 15px;
+}
+
+.codingDojoBox {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
